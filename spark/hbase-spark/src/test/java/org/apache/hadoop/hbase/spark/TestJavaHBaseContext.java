@@ -65,6 +65,8 @@ import scala.Tuple2;
 @Category({MiscTests.class, MediumTests.class})
 public class TestJavaHBaseContext implements Serializable {
 
+  // TEST change
+
   @ClassRule
   public static final HBaseClassTestRule TIMEOUT =
       HBaseClassTestRule.forClass(TestJavaHBaseContext.class);
